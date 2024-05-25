@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche sur les Pompes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Recherche sur les Pompes</h1>
+        <nav>
+            <ul>
+                <li><a href="#volumetric-pumps">Pompes Volumétriques</a></li>
+                <li><a href="#non-volumetric-pumps">Pompes Non-Volumétriques</a></li>
+                <li><a href="#comparison">Comparaison</a></li>
+                <li><a href="#conclusion">Conclusion</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="volumetric-pumps">
+        <h2>Pompes Volumétriques</h2>
+        <p>Les pompes volumétriques déplacent un volume fixe de liquide par cycle de fonctionnement, indépendamment de la pression ou de la viscosité du liquide.</p>
+        <h3>Types de Pompes Volumétriques</h3>
+        <ul>
+            <li>Pompes à piston</li>
+            <li>Pompes à diaphragme</li>
+            <li>Pompes péristaltiques</li>
+            <li>Pompes à engrenages</li>
+        </ul>
+    </section>
+
+    <section id="non-volumetric-pumps">
+        <h2>Pompes Non-Volumétriques</h2>
+        <p>Les pompes non-volumétriques déplacent le liquide par conversion d'énergie cinétique en énergie de pression, la quantité de liquide déplacée dépendant de la pression et de la viscosité du liquide.</p>
+        <h3>Types de Pompes Non-Volumétriques</h3>
+        <ul>
+            <li>Pompes centrifuges</li>
+            <li>Pompes axiales</li>
+        </ul>
+    </section>
+
+    <section id="comparison">
+        <h2>Comparaison</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Caractéristiques</th>
+                    <th>Pompes Volumétriques</th>
+                    <th>Pompes Non-Volumétriques</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Débit</td>
+                    <td>Constant</td>
+                    <td>Variable</td>
+                </tr>
+                <tr>
+                    <td>Viscosité</td>
+                    <td>Haute</td>
+                    <td>Basse</td>
+                </tr>
+                <tr>
+                    <td>Précision</td>
+                    <td>Haute</td>
+                    <td>Moyenne</td>
+                </tr>
+                <tr>
+                    <td>Maintenance</td>
+                    <td>Complexe</td>
+                    <td>Facile</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="conclusion">
+        <h2>Conclusion</h2>
+        <p>Pour des applications nécessitant une précision de débit élevée et la capacité de gérer des fluides visqueux ou abrasifs, les pompes volumétriques sont généralement préférées. Pour des applications nécessitant le déplacement de grands volumes d'eau ou de liquides à basse viscosité avec une maintenance minimale, les pompes centrifuges sont souvent le meilleur choix.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Recherche sur les Pompes</p>
+    </footer>
+</body>
+</html>
